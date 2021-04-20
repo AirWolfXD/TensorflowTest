@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TensorflowTest/static/css/main.5f361e03.chunk.css",
+    "main.js": "/TensorflowTest/static/js/main.8214f0cf.chunk.js",
+    "main.js.map": "/TensorflowTest/static/js/main.8214f0cf.chunk.js.map",
+    "runtime-main.js": "/TensorflowTest/static/js/runtime-main.4b26d04c.js",
+    "runtime-main.js.map": "/TensorflowTest/static/js/runtime-main.4b26d04c.js.map",
+    "static/js/2.4282fdb3.chunk.js": "/TensorflowTest/static/js/2.4282fdb3.chunk.js",
+    "static/js/2.4282fdb3.chunk.js.map": "/TensorflowTest/static/js/2.4282fdb3.chunk.js.map",
+    "index.html": "/TensorflowTest/index.html",
+    "precache-manifest.1054de3b5626f6b561eaa73e85f09c66.js": "/TensorflowTest/precache-manifest.1054de3b5626f6b561eaa73e85f09c66.js",
+    "service-worker.js": "/TensorflowTest/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/TensorflowTest/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4282fdb3.chunk.js.LICENSE.txt": "/TensorflowTest/static/js/2.4282fdb3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b26d04c.js",
+    "static/js/2.4282fdb3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8214f0cf.chunk.js"
+  ]
+}
