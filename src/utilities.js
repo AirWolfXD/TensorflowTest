@@ -4,9 +4,9 @@ export const drawRect = (detections, ctx) =>{
         const [x,y,width,height] = prediction['bbox'];
         const text = prediction['class'];
 
-        if(text === 'person'){
-            return;
-        }
+        // if(text === 'person'){
+        //     return;
+        // }
 
         const color = 'green'
         ctx.strokeStyle = color
@@ -16,16 +16,16 @@ export const drawRect = (detections, ctx) =>{
         ctx.fillText(text, x, y)
         ctx.rect(x, y, width, height)
         ctx.stroke()
-        play(text);
     })
+}
 
-    async function play(text) {
+export const play = (detections) => {
+    detections.forEach(prediction => {
+        const text = prediction['class'];
+        // if(text === 'person'){
+        //     return;
+        // }
         var msg = new SpeechSynthesisUtterance(text);
         window.speechSynthesis.speak(msg);
-        
-        return new Promise(resolve => {
-            Audio.onend = resolve;
-        });
-    }
-
+    })
 }
