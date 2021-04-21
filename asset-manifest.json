@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TensorflowTest/static/css/main.5f361e03.chunk.css",
-    "main.js": "/TensorflowTest/static/js/main.b55333d9.chunk.js",
-    "main.js.map": "/TensorflowTest/static/js/main.b55333d9.chunk.js.map",
+    "main.css": "/TensorflowTest/static/css/main.0d10a121.chunk.css",
+    "main.js": "/TensorflowTest/static/js/main.3639d8e7.chunk.js",
+    "main.js.map": "/TensorflowTest/static/js/main.3639d8e7.chunk.js.map",
     "runtime-main.js": "/TensorflowTest/static/js/runtime-main.4b26d04c.js",
     "runtime-main.js.map": "/TensorflowTest/static/js/runtime-main.4b26d04c.js.map",
     "static/js/2.372fde7d.chunk.js": "/TensorflowTest/static/js/2.372fde7d.chunk.js",
     "static/js/2.372fde7d.chunk.js.map": "/TensorflowTest/static/js/2.372fde7d.chunk.js.map",
     "index.html": "/TensorflowTest/index.html",
-    "precache-manifest.37831998abce248c9150e6e93549969c.js": "/TensorflowTest/precache-manifest.37831998abce248c9150e6e93549969c.js",
+    "precache-manifest.21ebda136e1dd0bb2c85e341fc5bf1cc.js": "/TensorflowTest/precache-manifest.21ebda136e1dd0bb2c85e341fc5bf1cc.js",
     "service-worker.js": "/TensorflowTest/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/TensorflowTest/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.0d10a121.chunk.css.map": "/TensorflowTest/static/css/main.0d10a121.chunk.css.map",
     "static/js/2.372fde7d.chunk.js.LICENSE.txt": "/TensorflowTest/static/js/2.372fde7d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b26d04c.js",
     "static/js/2.372fde7d.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b55333d9.chunk.js"
+    "static/css/main.0d10a121.chunk.css",
+    "static/js/main.3639d8e7.chunk.js"
   ]
 }
