@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60c8b28ba36730613f9950c03b7df51a",
+    "revision": "75624f1bccf0c58447c77b52566805b3",
     "url": "/TensorflowTest/index.html"
   },
   {
-    "revision": "5fdd39e888d6af894037",
+    "revision": "b0e89342a7a129700398",
     "url": "/TensorflowTest/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TensorflowTest/static/js/2.372fde7d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fdd39e888d6af894037",
-    "url": "/TensorflowTest/static/js/main.85fed340.chunk.js"
+    "revision": "b0e89342a7a129700398",
+    "url": "/TensorflowTest/static/js/main.64568c87.chunk.js"
   },
   {
     "revision": "1f173f15358b2bec12e9",
