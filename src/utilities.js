@@ -2,7 +2,7 @@ export const drawRect = (detections, ctx) =>{
 
     detections.forEach(prediction=>{
         const [x,y,width,height] = prediction['bbox'];
-        const text = prediction['class'];
+        const text = prediction['class'] + ": " + Math.round((prediction['score'] + Number.EPSILON) * 100) + "%";
 
         // if(text === 'person'){
         //     return;
@@ -21,7 +21,8 @@ export const drawRect = (detections, ctx) =>{
 
 export const play = (detections) => {
     detections.forEach(prediction => {
-        const text = prediction['class'];
+        const text = prediction['class'] + " " + Math.round((prediction['score'] + Number.EPSILON) * 100) + "%";
+        const [x,y,width,height] = prediction['bbox'];
         // if(text === 'person'){
         //     return;
         // }

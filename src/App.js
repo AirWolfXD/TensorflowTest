@@ -11,11 +11,11 @@ function App() {
 
   const runCoco = async () => {
     const net = await cocossd.load();
-
+    
     setInterval(() => {
       detect(net);
-      time += 1000;
-    }, 1500);
+      time += 50;
+    }, 50);
   };
 
   const detect = async (net) => {
@@ -35,14 +35,14 @@ function App() {
       canvasRef.current.height = videoHeight;
 
       const obj = await net.detect(video);
-      console.log(obj);
       const ctx = canvasRef.current.getContext("2d");
 
       drawRect(obj, ctx)
-      if(time == 2000){
+      document.onkeypress = function (space) {
+        space = space || window.event;
+        speechSynthesis.cancel();
         play(obj);
-        time = 0;
-      }
+      };
     }
   };
 
