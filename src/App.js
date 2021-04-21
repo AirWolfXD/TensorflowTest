@@ -39,7 +39,7 @@ function App() {
       const ctx = canvasRef.current.getContext("2d");
 
       drawRect(obj, ctx)
-      if(time == 3000){
+      if(time == 2000){
         play(obj);
         time = 0;
       }
