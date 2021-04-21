@@ -22,7 +22,7 @@ function App() {
     //  Loop and detect hands
     setInterval(() => {
       detect(net);
-    }, 10);
+    }, 1000);
   };
 
   const detect = async (net) => {

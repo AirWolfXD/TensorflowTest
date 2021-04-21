@@ -4,6 +4,10 @@ export const drawRect = (detections, ctx) =>{
         const [x,y,width,height] = prediction['bbox'];
         const text = prediction['class'];
 
+        if(text === 'person'){
+            return;
+        }
+
         const color = 'green'
         ctx.strokeStyle = color
         ctx.font = '18px Arial'
@@ -12,6 +16,16 @@ export const drawRect = (detections, ctx) =>{
         ctx.fillText(text, x, y)
         ctx.rect(x, y, width, height)
         ctx.stroke()
+        play(text);
     })
+
+    async function play(text) {
+        var msg = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(msg);
+        
+        return new Promise(resolve => {
+            Audio.onend = resolve;
+        });
+    }
 
 }
