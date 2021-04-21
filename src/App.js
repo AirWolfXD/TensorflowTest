@@ -10,8 +10,11 @@ function App() {
   const canvasRef = useRef(null);
 
   const runCoco = async () => {
-    const net = await cocossd.load();
+  const net = await cocossd.load();
     
+  var msg = new SpeechSynthesisUtterance("Press the space bar to use TTS");
+  window.speechSynthesis.speak(msg);
+  
     setInterval(() => {
       detect(net);
       time += 50;
